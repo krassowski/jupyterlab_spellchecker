@@ -487,6 +487,9 @@ class SpellChecker {
       return null;
     }
     const editorView = EditorView.findFromDOM(code_mirror_wrapper);
+    if (!editorView) {
+      return null;
+    }
     const offset = editorView.posAtCoords({
       x: event.clientX,
       y: event.clientY
