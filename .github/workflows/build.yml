@@ -55,7 +55,7 @@ jobs:
         pip uninstall -y "jupyterlab-spellchecker" jupyterlab
 
     - name: Upload extension packages
-      uses: actions/upload-artifact@v8
+      uses: actions/upload-artifact@v7
       with:
         name: extension-artifacts
         path: dist/jupyterlab-spellchecker*
