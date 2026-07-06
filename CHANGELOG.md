@@ -1,3 +1,15 @@
+### 0.9.0 (2026-07-06)
+
+- Bug fixes
+  - Avoid spellchecking unresolved notebook code cells https://github.com/jupyterlab-contrib/spellchecker/pull/147
+- Maintenance
+  - Refresh CI workflows https://github.com/jupyterlab-contrib/spellchecker/pull/148
+  - Refresh JavaScript dependencies https://github.com/jupyterlab-contrib/spellchecker/pull/149
+  - Update Python and JupyterLab versions for Binder https://github.com/jupyterlab-contrib/spellchecker/pull/150
+  - Upload extension artifact and run test in insolated env https://github.com/jupyterlab-contrib/spellchecker/pull/153
+  - Fix future compatibility with newer CodeMirror versions, remove unnecessary dependencies https://github.com/jupyterlab-contrib/spellchecker/pull/152
+  - Use public API of CodeMirror's `EditorView` to find view from DOM https://github.com/jupyterlab-contrib/spellchecker/pull/146
+
 ### 0.8.4 (2023-07-28)
 
 - bug fixes:
